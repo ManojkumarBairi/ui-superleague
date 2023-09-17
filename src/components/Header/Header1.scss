@@ -1,0 +1,59 @@
+.masthead {
+    position: relative;
+    z-index: 100;
+    min-height: auto!important;
+}
+
+.clubSitesHeading {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-width: 4rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: PremierSans-Heavy,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #76766f;
+}
+
+.clubList {
+    display: inline-block;
+    gap: 1.2rem;
+    width: 100%;
+    max-width: 130rem;
+    padding-right: 2.4rem;
+}
+.clubList__club {
+    display: inline-block;
+    justify-content: center;
+}
+.clubNavigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    background: #fff;
+    position: relative;
+    padding: 1.2rem 0 1.2rem 16.5rem;
+    z-index: 10;
+}
+.clubNavigation .name {
+    display: none;
+}
+
+.tooltipContainer, .visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// @media (max-width: 1100px)
+// .clubNavigation .badge--large .badge-image {
+//     width: 2.4rem;
+//     height: 2.4rem;
+// }
