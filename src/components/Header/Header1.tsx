@@ -8,7 +8,6 @@ export const Header1 = () => {
       <>
        <header className="masthead">
         <nav className="clubNavigation js-club-navigation">
-            <h4 className="clubSitesHeading">Club Sites</h4>
             <ul>
                 {clubList.map((e) => (
             <li className="clubList__club">
@@ -19,7 +18,6 @@ export const Header1 = () => {
                             <img
                              className="badge-image badge-image--50 js-badge-image"
                              src={e.imgSrc}
-                             srcSet={e.imgSrcSet}
                              alt={e.name}
                             />
                             <span className="visuallyHidden">{e.name}</span>

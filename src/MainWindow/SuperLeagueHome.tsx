@@ -10,9 +10,7 @@ export const SuperLeagueHome = () => {
         <>
         <Header1/>
         <MainNavigation/>
-        <main className="mainContent">
         <Table/>
-        </main>
         </>
     )
 };
